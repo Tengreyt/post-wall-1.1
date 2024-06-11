@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/ui.css">
+    <title>Post-wall-3</title>
+</head>
+<body>
+    
+    <head>
+        <div class="conatiner wrapper">
+            <div class="logo">
+                logo
+            </div>
+
+            <button class="glow-on-hover  open-modal" type="button">Add a post</button>
+        </div>
+    </head>
+
+    
+    <div class="conatiner ag-format-container ag-courses_box"></div>
+
+    <div class="modal-wrapper">
+        <div class="modal">
+            <div class="modal-head">
+                <h3>Создание поста</h3>
+                <div class="close" >✕</div>
+            </div>
+
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="name" id='description' required />
+                <label for="description" class="form__label">Описание</label>
+            </div>
+
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="name" id='title' required />
+                <label for="title" class="form__label">Заголовок статьи</label>
+            </div>
+
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" name="name" id='data' required />
+                <label for="data" class="form__label">Дата</label>
+            </div>
+
+            <button class="glow-on-hover  open-modal" type="button">Add a post</button>
+        </div>
+    </div>
+
+    <script type="module" src="./assets/scripts/app.js"></script>
+    <script type="module" src="./assets/scripts/evenst.js"></script>
+</body>
+</html>
